@@ -30,7 +30,7 @@ request.post({url: input_url, form: {token: process.env.TOKEN}}, function (err, 
 		    if (!err && res.statusCode == 200) {
 		        console.log(body);
 		    }    
-	});
+		});
     }    
 });
 
